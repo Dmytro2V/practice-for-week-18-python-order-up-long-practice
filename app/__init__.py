@@ -1,6 +1,6 @@
 from flask import Flask
 from .config import Configuration
-from .models import db, Employee
+from .models import db, Employee, Menu, MenuItem, MenuItemType
 from .routes import orders, session
 from flask_login import LoginManager
 
